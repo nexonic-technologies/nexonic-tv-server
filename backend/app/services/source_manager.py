@@ -8,7 +8,7 @@ from .playlist_importer import fetch_and_import_m3u
 # 1. Nexonic IPTV per-category playlists (official free streams, checked daily).
 # 2. Public iptv-org playlists (https://github.com/iptv-org/iptv). Their contents are user-submitted links; review
 #    what you import and only watch channels you are entitled to. The full index comes last.
-NEXONIC_BASE = "https://raw.githubusercontent.com/Shahrukhalid/nexonic-iptv/main/playlists/categories"
+NEXONIC_BASE = "https://raw.githubusercontent.com/nexonic-technologies/nexonic-iptv/main/playlists/categories"
 NEXONIC_CATEGORIES = [
     ("series", "TV Series"), ("news", "News"), ("kids", "Kids"), ("movies", "Movies"), ("sports", "Sports"),
     ("music", "Music"), ("documentary", "Documentary"), ("education", "Education"), ("business", "Business"),
